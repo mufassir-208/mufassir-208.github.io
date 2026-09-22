@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Mufassir | Cybersecurity</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #080b1a;
+            color: white;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background:
+                radial-gradient(circle at top left, #182a70, transparent 40%),
+                radial-gradient(circle at bottom right, #641b78, transparent 40%),
+                #080b1a;
+        }
+
+        .container {
+            max-width: 900px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 10px 18px;
+            border: 1px solid #00e5ff;
+            border-radius: 30px;
+            color: #00e5ff;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        h1 span {
+            color: #00e5ff;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            color: #c9c9d6;
+            margin-bottom: 30px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            padding: 14px 25px;
+            margin: 8px;
+            border-radius: 30px;
+            background: linear-gradient(90deg, #007cf0, #9b00ff);
+        }
+
+        section {
+            padding: 70px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 35px;
+            color: #00e5ff;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            padding: 25px;
+            background: #11152b;
+            border: 1px solid #292f55;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+            border-color: #00e5ff;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            color: #9b7cff;
+        }
+
+        .card p {
+            color: #c9c9d6;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #050711;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <div class="badge">🛡️ Cybersecurity Portfolio</div>
+
+        <h1>Hi, I'm <span>Mohamed Mufassir</span></h1>
+
+        <p class="subtitle">
+            Aspiring Cybersecurity Professional | SOC Analyst Enthusiast
+        </p>
+
+        <p class="subtitle">
+            Learning Cybersecurity, Network Security & Security Operations.
+        </p>
+
+        <div class="buttons">
+            <a href="#about">Explore My Portfolio</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+
+    </div>
+</header>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>👨‍💻 Who I Am</h3>
+            <p>
+                I am a cybersecurity student building practical skills
+                in cybersecurity and security operations.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🛡️ My Goal</h3>
+            <p>
+                My goal is to develop practical cybersecurity skills
+                and work towards an entry-level SOC or cybersecurity role.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚀 Currently Learning</h3>
+            <p>
+                Networking, Linux, cybersecurity fundamentals,
+                security tools and SOC concepts.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Cybersecurity Skills</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌐 Networking</h3>
+            <p>TCP/IP, IP addresses, DNS, HTTP/HTTPS and basic network security.</p>
+        </div>
+
+        <div class="card">
+            <h3>🐧 Linux</h3>
+            <p>Linux fundamentals, terminal commands and basic system administration.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔎 Security</h3>
+            <p>Security monitoring, log analysis, threat detection and incident basics.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧪 Hands-on Labs</h3>
+            <p>Building practical cybersecurity labs and documenting what I learn.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Projects</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🔐 SOC Home Lab</h3>
+            <p>
+                A practical home lab for learning security monitoring,
+                logs and basic incident investigation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌐 Network Analysis</h3>
+            <p>
+                Learning to analyse network traffic and understand
+                common protocols using security tools.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📧 Phishing Analysis</h3>
+            <p>
+                Practising identification and analysis of suspicious
+                emails and phishing indicators.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>📧 Email</h3>
+            <p>Add your professional email here.</p>
+        </div>
+
+        <div class="card">
+            <h3>💼 LinkedIn</h3>
+            <p>Add your LinkedIn profile here.</p>
+        </div>
+
+        <div class="card">
+            <h3>💻 GitHub</h3>
+            <p>Add your GitHub profile here.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Mohamed Mufassir | Cybersecurity Portfolio
+</footer>
+
+</body>
+</html>
